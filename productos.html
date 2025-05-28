@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos y Servicios - Pan Cotorras</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: beige;
+            margin: 0;
+            padding: 20px;
+            background-image: linear-gradient(to right, pink, purple);
+        }
+        header {
+            text-align: center;
+            background-image: linear-gradient(to right, pink, purple);
+            padding: 15px;
+            border-radius: 10px 10px 0 0;
+            color: white;
+        }
+        h1 {
+            color: white;
+            margin-top: 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+            background-color: #f0f0f0;
+            overflow: hidden;
+            border-radius: 5px;
+        }
+        nav li {
+            float: left;
+        }
+        nav li a {
+            display: block;
+            color: #333;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav li a:hover {
+            background-color: #ddd;
+        }
+        h2 {
+            background-image: linear-gradient(to right, purple, pink);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .producto, .servicio {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+        .costo {
+            font-weight: bold;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.jpeg" alt="Logo Pan Cotorras" width="200">
+        </div>
+        <h1>Productos y Servicios</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Página Principal</a></li>
+            <li><a href="menu.html">Menú</a></li>
+            <li><a href="productos.html" class="active">Productos y Servicios</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Nuestros Productos</h2>
+        <div class="producto">
+            <h3>Cotorra Sencilla</h3>
+            <p>Nuestro pan estrella, suave y delicioso.</p>
+            <p class="costo">Costo: $15 MXN</p>
+        </div>
+        <div class="producto">
+            <h3>Cotorra Preparada</h3>
+            <p>Con dos bolas de nieve y tus ingredientes favoritos.</p>
+            <p class="costo">Costo: $35 MXN</p>
+        </div>
+        <div class="producto">
+            <h3>Super Cotorra</h3>
+            <p>Una explosión de sabor con tres bolas de nieve y múltiples toppings.</p>
+            <p class="costo">Costo: $50 MXN</p>
+        </div>
+        </section>
+
+    <section>
+        <h2>Nuestros Servicios</h2>
+        <div class="servicio">
+            <h3>Pedidos para Eventos</h3>
+            <p>Preparamos grandes cantidades de nuestras Cotorras para tus fiestas y reuniones.</p>
+        </div>
+        <div class="servicio">
+            <h3>Entrega a Domicilio (Local)</h3>
+            <p>Consulta nuestra zona de cobertura para llevar el sabor a tu hogar.</p>
+        </div>
+        </section>
+
+</body>
+</html>
